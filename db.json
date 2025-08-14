@@ -1,38 +1,41 @@
- [
-    {
-      "id": "001",
-      "nome": "Smartphone Samsung Galaxy S23",
-      "descricao": "O Samsung Galaxy S23 oferece desempenho avançado, câmera de alta resolução e bateria de longa duração.",
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_969408-MLU75401927010_042024-O.webp"
-    },
-    {
-      "id": "002",
-      "nome": "iPhone 14 Pro Max",
-      "descricao": "O iPhone 14 Pro Max traz o melhor da Apple em performance, tela e câmeras, com design sofisticado.",
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_605126-MLM51559383638_092022-O.webp"
-    },
-    {
-      "id": "003",
-      "nome": "Google Pixel 7 Pro",
-      "descricao": "O Google Pixel 7 Pro destaca-se pela experiência Android pura e câmeras inteligentes.",
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_617232-MLB86276915425_062025-O.webp"
-    },
-    {
-      "id": "004",
-      "nome": "Xiaomi Redmi 12",
-      "descricao": "O Redmi 12 oferece ótimo custo-benefício, bateria duradoura e tela grande.",
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_911998-MLA84080936633_042025-O.webp"
-    },
-    {
-      "id": "005",
-      "nome": "Samsung Galaxy Z Fold 5",
-      "descricao": "O Galaxy Z Fold 5 é um smartphone dobrável com tela expansível e recursos inovadores.",
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_693774-MLU77435030132_072024-O.webp"
-    },
-    {
-      "id": "006",
-      "nome": "Motorola Edge 40 Pro",
-      "descricao": "O Edge 40 Pro traz desempenho de ponta, tela curva e carregamento ultrarrápido.",
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_737250-MLA51089699542_082022-O.webp"
-    }
-  ]
+{ 
+ "celulares":
+  [
+     {
+       "id": "001",
+       "nome": "Smartphone Samsung Galaxy S23",
+       "descricao": "O Samsung Galaxy S23 oferece desempenho avançado, câmera de alta resolução e bateria de longa duração.",
+       "imagem": "https://http2.mlstatic.com/D_NQ_NP_969408-MLU75401927010_042024-O.webp"
+     },
+     {
+       "id": "002",
+       "nome": "iPhone 14 Pro Max",
+       "descricao": "O iPhone 14 Pro Max traz o melhor da Apple em performance, tela e câmeras, com design sofisticado.",
+       "imagem": "https://http2.mlstatic.com/D_NQ_NP_605126-MLM51559383638_092022-O.webp"
+     },
+     {
+       "id": "003",
+       "nome": "Google Pixel 7 Pro",
+       "descricao": "O Google Pixel 7 Pro destaca-se pela experiência Android pura e câmeras inteligentes.",
+       "imagem": "https://http2.mlstatic.com/D_NQ_NP_617232-MLB86276915425_062025-O.webp"
+     },
+     {
+       "id": "004",
+       "nome": "Xiaomi Redmi 12",
+       "descricao": "O Redmi 12 oferece ótimo custo-benefício, bateria duradoura e tela grande.",
+       "imagem": "https://http2.mlstatic.com/D_NQ_NP_911998-MLA84080936633_042025-O.webp"
+     },
+     {
+       "id": "005",
+       "nome": "Samsung Galaxy Z Fold 5",
+       "descricao": "O Galaxy Z Fold 5 é um smartphone dobrável com tela expansível e recursos inovadores.",
+       "imagem": "https://http2.mlstatic.com/D_NQ_NP_693774-MLU77435030132_072024-O.webp"
+     },
+     {
+       "id": "006",
+       "nome": "Motorola Edge 40 Pro",
+       "descricao": "O Edge 40 Pro traz desempenho de ponta, tela curva e carregamento ultrarrápido.",
+       "imagem": "https://http2.mlstatic.com/D_NQ_NP_737250-MLA51089699542_082022-O.webp"
+     }
+   ]
+}
