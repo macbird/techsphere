@@ -65,5 +65,152 @@
 			"descricao": "O Edge 40 Pro traz desempenho de ponta, tela curva e carregamento ultrarrápido.",
 			"imagem": "https://http2.mlstatic.com/D_NQ_NP_737250-MLA51089699542_082022-O.webp"
 		}
-	]
+	],
+	"listar_pacotes": [
+    {
+      "id": 1,
+      "tier": "Alto",
+      "destino": "Paris",
+      "datas": "2024-03-15 a 2024-03-20",
+      "pacotes": [
+        {
+          "nome": "City Break Premium",
+          "tipo": "luxo",
+          "detalhes": "Hotel 5*, 5 noites, transfer privado, city tour exclusivo",
+          "preco_estimado": "R$ 8.500",
+          "destaque": "Experiência gastronômica + voo business"
+        },
+        {
+          "nome": "Resort All Inclusive",
+          "tipo": "premium",
+          "detalhes": "Resort 5*, quarto vista mar, spa, experiências exclusivas",
+          "preco_estimado": "R$ 12.000",
+          "destaque": "Tudo incluso + atividades premium"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "tier": "Médio-Alto",
+      "destino": "Barcelona",
+      "datas": "2024-04-10 a 2024-04-15",
+      "pacotes": [
+        {
+          "nome": "Tour Cultural",
+          "tipo": "intermediário superior",
+          "detalhes": "Hotel 4*, 5 noites, passeios guiados, traslado",
+          "preco_estimado": "R$ 4.200",
+          "destaque": "Arquitetura + gastronomia local"
+        },
+        {
+          "nome": "Praia Conforto",
+          "tipo": "intermediário",
+          "detalhes": "Hotel 4*, meia pensão, traslado, praia privada",
+          "preco_estimado": "R$ 3.800",
+          "destaque": "Relaxamento + atividades aquáticas"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "tier": "Médio",
+      "destino": "Lisboa",
+      "datas": "2024-05-05 a 2024-05-10",
+      "pacotes": [
+        {
+          "nome": "City Break Essencial",
+          "tipo": "custo-benefício",
+          "detalhes": "Hotel 3-4*, 5 noites, passeios base, café da manhã",
+          "preco_estimado": "R$ 2.800",
+          "destaque": "História + gastronomia tradicional"
+        },
+        {
+          "nome": "EcoTrip",
+          "tipo": "sustentável",
+          "detalhes": "Pousada 3*, trilhas, experiências locais, sustentável",
+          "preco_estimado": "R$ 2.200",
+          "destaque": "Turismo responsável + natureza"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "tier": "Médio-Baixo",
+      "destino": "Porto",
+      "datas": "2024-06-12 a 2024-06-17",
+      "pacotes": [
+        {
+          "nome": "Econômico Flex",
+          "tipo": "econômico",
+          "detalhes": "Hotel 2-3*, datas flexíveis, sem traslado, café da manhã",
+          "preco_estimado": "R$ 1.500",
+          "destaque": "Melhor preço + flexibilidade"
+        },
+        {
+          "nome": "Mochilão",
+          "tipo": "aventura",
+          "detalhes": "Hostel/pousada econômica, passes regionais, mochila",
+          "preco_estimado": "R$ 1.200",
+          "destaque": "Aventura + economia máxima"
+        }
+      ]
+    }
+  ],
+  "informar_canal_internacional": [
+    {
+      "id": 1,
+      "pais": "US",
+      "idioma": "en-US",
+      "canal": "International Support",
+      "contato": "support@bluehorizon.com",
+      "telefone": "+1-555-0123",
+      "horario": "24/7",
+      "website": "https://bluehorizon.com/en/support",
+      "mensagem": "We apologize, but we only serve customers in Brazil. Please contact our international support team for assistance."
+    },
+    {
+      "id": 2,
+      "pais": "AR",
+      "idioma": "es-AR",
+      "canal": "Soporte Internacional",
+      "contato": "soporte@bluehorizon.com",
+      "telefone": "+54-11-1234-5678",
+      "horario": "08:00-18:00 (GMT-3)",
+      "website": "https://bluehorizon.com/es/soporte",
+      "mensagem": "Disculpe, solo atendemos clientes en Brasil. Por favor contacte nuestro equipo de soporte internacional."
+    },
+    {
+      "id": 3,
+      "pais": "FR",
+      "idioma": "fr-FR",
+      "canal": "Support International",
+      "contato": "support@bluehorizon.com",
+      "telefone": "+33-1-23-45-67-89",
+      "horario": "09:00-17:00 (GMT+1)",
+      "website": "https://bluehorizon.com/fr/support",
+      "mensagem": "Nous nous excusons, mais nous ne servons que les clients au Brésil. Veuillez contacter notre équipe de support international."
+    },
+    {
+      "id": 4,
+      "pais": "DE",
+      "idioma": "de-DE",
+      "canal": "Internationaler Support",
+      "contato": "support@bluehorizon.com",
+      "telefone": "+49-30-12345678",
+      "horario": "09:00-17:00 (GMT+1)",
+      "website": "https://bluehorizon.com/de/support",
+      "mensagem": "Entschuldigung, wir bedienen nur Kunden in Brasilien. Bitte kontaktieren Sie unser internationales Support-Team."
+    },
+    {
+      "id": 5,
+      "pais": "IT",
+      "idioma": "it-IT",
+      "canal": "Supporto Internazionale",
+      "contato": "supporto@bluehorizon.com",
+      "telefone": "+39-06-12345678",
+      "horario": "09:00-17:00 (GMT+1)",
+      "website": "https://bluehorizon.com/it/supporto",
+      "mensagem": "Ci scusiamo, serviamo solo clienti in Brasile. Si prega di contattare il nostro team di supporto internazionale."
+    }
+  ]
 }
