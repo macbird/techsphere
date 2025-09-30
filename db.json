@@ -65,31 +65,6 @@
 			]
 		},
 		{
-			"id": 102,
-			"tier": "Luxo",
-			"destination": "Dubai",
-			"city": "Dubai",
-			"country": "AE",
-			"nights": 6,
-			"hotel_rating": 5,
-			"board": "Café da manhã",
-			"flight_class": "Business",
-			"inclusions": [
-				"Safari no deserto",
-				"Burj Khalifa",
-				"Traslado VIP"
-			],
-			"available_from": "2025-09-01",
-			"available_to": "2026-04-30",
-			"price_from": 36000,
-			"currency": "BRL",
-			"tags": [
-				"cidade",
-				"luxo",
-				"experiências"
-			]
-		},
-		{
 			"id": 103,
 			"tier": "Luxo",
 			"destination": "Paris",
@@ -136,30 +111,6 @@
 			"tags": [
 				"praia",
 				"família",
-				"premium"
-			]
-		},
-		{
-			"id": 105,
-			"tier": "Alto",
-			"destination": "Roma",
-			"city": "Roma",
-			"country": "IT",
-			"nights": 5,
-			"hotel_rating": 5,
-			"board": "Café da manhã",
-			"flight_class": "Economy Flex",
-			"inclusions": [
-				"Vaticano",
-				"Coliseu",
-				"Traslado"
-			],
-			"available_from": "2025-03-15",
-			"available_to": "2025-11-30",
-			"price_from": 13900,
-			"currency": "BRL",
-			"tags": [
-				"história",
 				"premium"
 			]
 		},
@@ -258,28 +209,7 @@
 				"inverno"
 			]
 		},
-		{
-			"id": 204,
-			"tier": "Medio-Alto",
-			"destination": "Orlando",
-			"city": "Orlando",
-			"country": "US",
-			"nights": 7,
-			"hotel_rating": 4,
-			"board": "Sem alimentação",
-			"flight_class": "Economy",
-			"inclusions": [
-				"Ingresso 2 parques",
-				"Traslado opcional"
-			],
-			"available_from": "2025-02-01",
-			"available_to": "2025-12-20",
-			"price_from": 9800,
-			"currency": "BRL",
-			"tags": [
-				"família",
-				"parques"
-			]
+		
 		},
 		{
 			"id": 205,
