@@ -1,5 +1,4 @@
 {
-	
 	"celulares": [
 		{
 			"id": "001",
@@ -38,151 +37,559 @@
 			"imagem": "https://http2.mlstatic.com/D_NQ_NP_737250-MLA51089699542_082022-O.webp"
 		}
 	],
-	"listar_pacotes": [
-    {
-      "id": 1,
-      "tier": "Alto",
-      "destino": "Paris",
-      "datas": "2024-03-15 a 2024-03-20",
-      "pacotes": [
-        {
-          "nome": "City Break Premium",
-          "tipo": "luxo",
-          "detalhes": "Hotel 5*, 5 noites, transfer privado, city tour exclusivo",
-          "preco_estimado": "R$ 8.500",
-          "destaque": "Experiência gastronômica + voo business"
-        },
-        {
-          "nome": "Resort All Inclusive",
-          "tipo": "premium",
-          "detalhes": "Resort 5*, quarto vista mar, spa, experiências exclusivas",
-          "preco_estimado": "R$ 12.000",
-          "destaque": "Tudo incluso + atividades premium"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "tier": "Médio-Alto",
-      "destino": "Barcelona",
-      "datas": "2024-04-10 a 2024-04-15",
-      "pacotes": [
-        {
-          "nome": "Tour Cultural",
-          "tipo": "intermediário superior",
-          "detalhes": "Hotel 4*, 5 noites, passeios guiados, traslado",
-          "preco_estimado": "R$ 4.200",
-          "destaque": "Arquitetura + gastronomia local"
-        },
-        {
-          "nome": "Praia Conforto",
-          "tipo": "intermediário",
-          "detalhes": "Hotel 4*, meia pensão, traslado, praia privada",
-          "preco_estimado": "R$ 3.800",
-          "destaque": "Relaxamento + atividades aquáticas"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "tier": "Médio",
-      "destino": "Lisboa",
-      "datas": "2024-05-05 a 2024-05-10",
-      "pacotes": [
-        {
-          "nome": "City Break Essencial",
-          "tipo": "custo-benefício",
-          "detalhes": "Hotel 3-4*, 5 noites, passeios base, café da manhã",
-          "preco_estimado": "R$ 2.800",
-          "destaque": "História + gastronomia tradicional"
-        },
-        {
-          "nome": "EcoTrip",
-          "tipo": "sustentável",
-          "detalhes": "Pousada 3*, trilhas, experiências locais, sustentável",
-          "preco_estimado": "R$ 2.200",
-          "destaque": "Turismo responsável + natureza"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "tier": "Médio-Baixo",
-      "destino": "Porto",
-      "datas": "2024-06-12 a 2024-06-17",
-      "pacotes": [
-        {
-          "nome": "Econômico Flex",
-          "tipo": "econômico",
-          "detalhes": "Hotel 2-3*, datas flexíveis, sem traslado, café da manhã",
-          "preco_estimado": "R$ 1.500",
-          "destaque": "Melhor preço + flexibilidade"
-        },
-        {
-          "nome": "Mochilão",
-          "tipo": "aventura",
-          "detalhes": "Hostel/pousada econômica, passes regionais, mochila",
-          "preco_estimado": "R$ 1.200",
-          "destaque": "Aventura + economia máxima"
-        }
-      ]
-    }
-  ],
-  "informar_canal_internacional": [
-    {
-      "id": 1,
-      "pais": "US",
-      "idioma": "en-US",
-      "canal": "International Support",
-      "contato": "support@bluehorizon.com",
-      "telefone": "+1-555-0123",
-      "horario": "24/7",
-      "website": "https://bluehorizon.com/en/support",
-      "mensagem": "We apologize, but we only serve customers in Brazil. Please contact our international support team for assistance."
-    },
-    {
-      "id": 2,
-      "pais": "AR",
-      "idioma": "es-AR",
-      "canal": "Soporte Internacional",
-      "contato": "soporte@bluehorizon.com",
-      "telefone": "+54-11-1234-5678",
-      "horario": "08:00-18:00 (GMT-3)",
-      "website": "https://bluehorizon.com/es/soporte",
-      "mensagem": "Disculpe, solo atendemos clientes en Brasil. Por favor contacte nuestro equipo de soporte internacional."
-    },
-    {
-      "id": 3,
-      "pais": "FR",
-      "idioma": "fr-FR",
-      "canal": "Support International",
-      "contato": "support@bluehorizon.com",
-      "telefone": "+33-1-23-45-67-89",
-      "horario": "09:00-17:00 (GMT+1)",
-      "website": "https://bluehorizon.com/fr/support",
-      "mensagem": "Nous nous excusons, mais nous ne servons que les clients au Brésil. Veuillez contacter notre équipe de support international."
-    },
-    {
-      "id": 4,
-      "pais": "DE",
-      "idioma": "de-DE",
-      "canal": "Internationaler Support",
-      "contato": "support@bluehorizon.com",
-      "telefone": "+49-30-12345678",
-      "horario": "09:00-17:00 (GMT+1)",
-      "website": "https://bluehorizon.com/de/support",
-      "mensagem": "Entschuldigung, wir bedienen nur Kunden in Brasilien. Bitte kontaktieren Sie unser internationales Support-Team."
-    },
-    {
-      "id": 5,
-      "pais": "IT",
-      "idioma": "it-IT",
-      "canal": "Supporto Internazionale",
-      "contato": "supporto@bluehorizon.com",
-      "telefone": "+39-06-12345678",
-      "horario": "09:00-17:00 (GMT+1)",
-      "website": "https://bluehorizon.com/it/supporto",
-      "mensagem": "Ci scusiamo, serviamo solo clienti in Brasile. Si prega di contattare il nostro team di supporto internazionale."
-    }
-  ]
+	"packages": [
+		{
+			"id": 101,
+			"tier": "Luxo",
+			"destination": "Maldivas",
+			"city": "Malé",
+			"country": "MV",
+			"nights": 7,
+			"hotel_rating": 5,
+			"board": "All Inclusive",
+			"flight_class": "Business",
+			"inclusions": [
+				"Traslado privado",
+				"Spa",
+				"Jantar romântico",
+				"Passeio de barco"
+			],
+			"available_from": "2025-11-01",
+			"available_to": "2026-03-31",
+			"price_from": 42000,
+			"currency": "BRL",
+			"tags": [
+				"praia",
+				"luxo",
+				"romântico"
+			]
+		},
+		{
+			"id": 102,
+			"tier": "Luxo",
+			"destination": "Dubai",
+			"city": "Dubai",
+			"country": "AE",
+			"nights": 6,
+			"hotel_rating": 5,
+			"board": "Café da manhã",
+			"flight_class": "Business",
+			"inclusions": [
+				"Safari no deserto",
+				"Burj Khalifa",
+				"Traslado VIP"
+			],
+			"available_from": "2025-09-01",
+			"available_to": "2026-04-30",
+			"price_from": 36000,
+			"currency": "BRL",
+			"tags": [
+				"cidade",
+				"luxo",
+				"experiências"
+			]
+		},
+		{
+			"id": 103,
+			"tier": "Luxo",
+			"destination": "Paris",
+			"city": "Paris",
+			"country": "FR",
+			"nights": 5,
+			"hotel_rating": 5,
+			"board": "Café da manhã",
+			"flight_class": "Business",
+			"inclusions": [
+				"Jantar Michelin",
+				"Traslado privado",
+				"Seine cruise"
+			],
+			"available_from": "2025-04-01",
+			"available_to": "2025-10-31",
+			"price_from": 28500,
+			"currency": "BRL",
+			"tags": [
+				"cidade",
+				"gastronomia",
+				"premium"
+			]
+		},
+		{
+			"id": 104,
+			"tier": "Alto",
+			"destination": "Cancún",
+			"city": "Cancún",
+			"country": "MX",
+			"nights": 6,
+			"hotel_rating": 5,
+			"board": "All Inclusive",
+			"flight_class": "Economy Flex",
+			"inclusions": [
+				"Resort 5*",
+				"Traslado",
+				"Chichén Itzá"
+			],
+			"available_from": "2025-03-01",
+			"available_to": "2025-12-15",
+			"price_from": 14500,
+			"currency": "BRL",
+			"tags": [
+				"praia",
+				"família",
+				"premium"
+			]
+		},
+		{
+			"id": 105,
+			"tier": "Alto",
+			"destination": "Roma",
+			"city": "Roma",
+			"country": "IT",
+			"nights": 5,
+			"hotel_rating": 5,
+			"board": "Café da manhã",
+			"flight_class": "Economy Flex",
+			"inclusions": [
+				"Vaticano",
+				"Coliseu",
+				"Traslado"
+			],
+			"available_from": "2025-03-15",
+			"available_to": "2025-11-30",
+			"price_from": 13900,
+			"currency": "BRL",
+			"tags": [
+				"história",
+				"premium"
+			]
+		},
+		{
+			"id": 106,
+			"tier": "Alto",
+			"destination": "Fernando de Noronha",
+			"city": "Fernando de Noronha",
+			"country": "BR",
+			"nights": 5,
+			"hotel_rating": 5,
+			"board": "Café da manhã",
+			"flight_class": "Economy",
+			"inclusions": [
+				"Passeio barco",
+				"Taxa ambiental NÃO inclusa"
+			],
+			"available_from": "2025-08-01",
+			"available_to": "2026-02-28",
+			"price_from": 12800,
+			"currency": "BRL",
+			"tags": [
+				"praia",
+				"premium",
+				"natureza"
+			]
+		},
+		{
+			"id": 201,
+			"tier": "Medio-Alto",
+			"destination": "Barcelona",
+			"city": "Barcelona",
+			"country": "ES",
+			"nights": 5,
+			"hotel_rating": 4,
+			"board": "Meia pensão",
+			"flight_class": "Economy Flex",
+			"inclusions": [
+				"Passeios guiados",
+				"Traslado",
+				"Seguro básico"
+			],
+			"available_from": "2025-04-10",
+			"available_to": "2025-10-10",
+			"price_from": 8200,
+			"currency": "BRL",
+			"tags": [
+				"cultura",
+				"gastronomia"
+			]
+		},
+		{
+			"id": 202,
+			"tier": "Medio-Alto",
+			"destination": "Gramado",
+			"city": "Gramado",
+			"country": "BR",
+			"nights": 4,
+			"hotel_rating": 4,
+			"board": "Café da manhã",
+			"flight_class": "Economy",
+			"inclusions": [
+				"City tour",
+				"Ingresso parque temático"
+			],
+			"available_from": "2025-06-01",
+			"available_to": "2025-08-31",
+			"price_from": 5200,
+			"currency": "BRL",
+			"tags": [
+				"inverno",
+				"família",
+				"romântico"
+			]
+		},
+		{
+			"id": 203,
+			"tier": "Medio-Alto",
+			"destination": "Santiago",
+			"city": "Santiago",
+			"country": "CL",
+			"nights": 5,
+			"hotel_rating": 4,
+			"board": "Café da manhã",
+			"flight_class": "Economy",
+			"inclusions": [
+				"Vinícolas",
+				"Traslado"
+			],
+			"available_from": "2025-05-01",
+			"available_to": "2025-09-30",
+			"price_from": 6700,
+			"currency": "BRL",
+			"tags": [
+				"vinhos",
+				"inverno"
+			]
+		},
+		{
+			"id": 204,
+			"tier": "Medio-Alto",
+			"destination": "Orlando",
+			"city": "Orlando",
+			"country": "US",
+			"nights": 7,
+			"hotel_rating": 4,
+			"board": "Sem alimentação",
+			"flight_class": "Economy",
+			"inclusions": [
+				"Ingresso 2 parques",
+				"Traslado opcional"
+			],
+			"available_from": "2025-02-01",
+			"available_to": "2025-12-20",
+			"price_from": 9800,
+			"currency": "BRL",
+			"tags": [
+				"família",
+				"parques"
+			]
+		},
+		{
+			"id": 205,
+			"tier": "Medio-Alto",
+			"destination": "Buenos Aires",
+			"city": "Buenos Aires",
+			"country": "AR",
+			"nights": 4,
+			"hotel_rating": 4,
+			"board": "Café da manhã",
+			"flight_class": "Economy",
+			"inclusions": [
+				"Tango show",
+				"City tour"
+			],
+			"available_from": "2025-03-01",
+			"available_to": "2025-11-30",
+			"price_from": 4900,
+			"currency": "BRL",
+			"tags": [
+				"cultura",
+				"gastronomia"
+			]
+		},
+		{
+			"id": 301,
+			"tier": "Medio",
+			"destination": "Lisboa",
+			"city": "Lisboa",
+			"country": "PT",
+			"nights": 5,
+			"hotel_rating": 3,
+			"board": "Café da manhã",
+			"flight_class": "Economy",
+			"inclusions": [
+				"Elétrico 28",
+				"Walking tour"
+			],
+			"available_from": "2025-03-01",
+			"available_to": "2025-11-30",
+			"price_from": 5900,
+			"currency": "BRL",
+			"tags": [
+				"história",
+				"custo-benefício"
+			]
+		},
+		{
+			"id": 302,
+			"tier": "Medio",
+			"destination": "Maceió",
+			"city": "Maceió",
+			"country": "BR",
+			"nights": 6,
+			"hotel_rating": 3,
+			"board": "Café da manhã",
+			"flight_class": "Economy",
+			"inclusions": [
+				"Passeio Maragogi",
+				"Traslado compartilhado"
+			],
+			"available_from": "2025-09-01",
+			"available_to": "2026-02-28",
+			"price_from": 3800,
+			"currency": "BRL",
+			"tags": [
+				"praia",
+				"família"
+			]
+		},
+		{
+			"id": 303,
+			"tier": "Medio",
+			"destination": "Foz do Iguaçu",
+			"city": "Foz do Iguaçu",
+			"country": "BR",
+			"nights": 4,
+			"hotel_rating": 3,
+			"board": "Café da manhã",
+			"flight_class": "Economy",
+			"inclusions": [
+				"Parque Nacional (lado BR)",
+				"Traslado compartilhado"
+			],
+			"available_from": "2025-02-01",
+			"available_to": "2025-12-20",
+			"price_from": 3100,
+			"currency": "BRL",
+			"tags": [
+				"natureza",
+				"econômico"
+			]
+		},
+		{
+			"id": 304,
+			"tier": "Medio",
+			"destination": "Santiago",
+			"city": "Santiago",
+			"country": "CL",
+			"nights": 4,
+			"hotel_rating": 3,
+			"board": "Café da manhã",
+			"flight_class": "Economy",
+			"inclusions": [
+				"City tour",
+				"Vinícola (opcional)"
+			],
+			"available_from": "2025-05-01",
+			"available_to": "2025-09-30",
+			"price_from": 4200,
+			"currency": "BRL",
+			"tags": [
+				"inverno",
+				"custo-benefício"
+			]
+		},
+		{
+			"id": 305,
+			"tier": "Medio",
+			"destination": "Recife",
+			"city": "Recife",
+			"country": "BR",
+			"nights": 5,
+			"hotel_rating": 3,
+			"board": "Café da manhã",
+			"flight_class": "Economy",
+			"inclusions": [
+				"Porto de Galinhas",
+				"Traslado compartilhado"
+			],
+			"available_from": "2025-08-01",
+			"available_to": "2026-01-31",
+			"price_from": 3500,
+			"currency": "BRL",
+			"tags": [
+				"praia",
+				"família"
+			]
+		},
+		{
+			"id": 401,
+			"tier": "Medio-Baixo",
+			"destination": "Porto",
+			"city": "Porto",
+			"country": "PT",
+			"nights": 5,
+			"hotel_rating": 3,
+			"board": "Café da manhã",
+			"flight_class": "Economy",
+			"inclusions": [
+				"Caves de vinho",
+				"Walking tour"
+			],
+			"available_from": "2025-03-15",
+			"available_to": "2025-11-15",
+			"price_from": 4100,
+			"currency": "BRL",
+			"tags": [
+				"cultura",
+				"econômico"
+			]
+		},
+		{
+			"id": 402,
+			"tier": "Medio-Baixo",
+			"destination": "Natal",
+			"city": "Natal",
+			"country": "BR",
+			"nights": 5,
+			"hotel_rating": 3,
+			"board": "Café da manhã",
+			"flight_class": "Economy",
+			"inclusions": [
+				"Genipabu (opcional)",
+				"Traslado compartilhado"
+			],
+			"available_from": "2025-09-01",
+			"available_to": "2026-02-28",
+			"price_from": 2900,
+			"currency": "BRL",
+			"tags": [
+				"praia",
+				"econômico"
+			]
+		},
+		{
+			"id": 403,
+			"tier": "Medio-Baixo",
+			"destination": "Curitiba",
+			"city": "Curitiba",
+			"country": "BR",
+			"nights": 3,
+			"hotel_rating": 3,
+			"board": "Café da manhã",
+			"flight_class": "Economy",
+			"inclusions": [
+				"Jardim Botânico",
+				"Tour histórico"
+			],
+			"available_from": "2025-03-01",
+			"available_to": "2025-12-20",
+			"price_from": 1800,
+			"currency": "BRL",
+			"tags": [
+				"cidade",
+				"econômico"
+			]
+		},
+		{
+			"id": 404,
+			"tier": "Medio-Baixo",
+			"destination": "Montevidéu",
+			"city": "Montevideo",
+			"country": "UY",
+			"nights": 4,
+			"hotel_rating": 3,
+			"board": "Café da manhã",
+			"flight_class": "Economy",
+			"inclusions": [
+				"City tour",
+				"Mercado del Puerto"
+			],
+			"available_from": "2025-04-01",
+			"available_to": "2025-10-31",
+			"price_from": 2700,
+			"currency": "BRL",
+			"tags": [
+				"cultura",
+				"econômico"
+			]
+		},
+		{
+			"id": 405,
+			"tier": "Medio-Baixo",
+			"destination": "Porto Seguro",
+			"city": "Porto Seguro",
+			"country": "BR",
+			"nights": 5,
+			"hotel_rating": 3,
+			"board": "Café da manhã",
+			"flight_class": "Economy",
+			"inclusions": [
+				"Arraial d'Ajuda (opcional)",
+				"Traslado compartilhado"
+			],
+			"available_from": "2025-08-01",
+			"available_to": "2026-01-31",
+			"price_from": 2300,
+			"currency": "BRL",
+			"tags": [
+				"praia",
+				"econômico"
+			]
+		}
+	],
+	"informar_canal_internacional": [
+		{
+			"id": 1,
+			"pais": "US",
+			"idioma": "en-US",
+			"canal": "International Support",
+			"contato": "support@bluehorizon.com",
+			"telefone": "+1-555-0123",
+			"horario": "24/7",
+			"website": "https://bluehorizon.com/en/support",
+			"mensagem": "We apologize, but we only serve customers in Brazil. Please contact our international support team for assistance."
+		},
+		{
+			"id": 2,
+			"pais": "AR",
+			"idioma": "es-AR",
+			"canal": "Soporte Internacional",
+			"contato": "soporte@bluehorizon.com",
+			"telefone": "+54-11-1234-5678",
+			"horario": "08:00-18:00 (GMT-3)",
+			"website": "https://bluehorizon.com/es/soporte",
+			"mensagem": "Disculpe, solo atendemos clientes en Brasil. Por favor contacte nuestro equipo de soporte internacional."
+		},
+		{
+			"id": 3,
+			"pais": "FR",
+			"idioma": "fr-FR",
+			"canal": "Support International",
+			"contato": "support@bluehorizon.com",
+			"telefone": "+33-1-23-45-67-89",
+			"horario": "09:00-17:00 (GMT+1)",
+			"website": "https://bluehorizon.com/fr/support",
+			"mensagem": "Nous nous excusons, mais nous ne servons que les clients au Brésil. Veuillez contacter notre équipe de support international."
+		},
+		{
+			"id": 4,
+			"pais": "DE",
+			"idioma": "de-DE",
+			"canal": "Internationaler Support",
+			"contato": "support@bluehorizon.com",
+			"telefone": "+49-30-12345678",
+			"horario": "09:00-17:00 (GMT+1)",
+			"website": "https://bluehorizon.com/de/support",
+			"mensagem": "Entschuldigung, wir bedienen nur Kunden in Brasilien. Bitte kontaktieren Sie unser internationales Support-Team."
+		},
+		{
+			"id": 5,
+			"pais": "IT",
+			"idioma": "it-IT",
+			"canal": "Supporto Internazionale",
+			"contato": "supporto@bluehorizon.com",
+			"telefone": "+39-06-12345678",
+			"horario": "09:00-17:00 (GMT+1)",
+			"website": "https://bluehorizon.com/it/supporto",
+			"mensagem": "Ci scusiamo, serviamo solo clienti in Brasile. Si prega di contattare il nostro team di supporto internazionale."
+		}
+	]
 }
