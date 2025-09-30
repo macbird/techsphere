@@ -40,7 +40,7 @@
 	"packages": [
 		{
 			"id": 101,
-			"tier": "Luxo",
+			"tier": "Alto",
 			"destination": "Maldivas",
 			"city": "Malé",
 			"country": "MV",
@@ -66,7 +66,7 @@
 		},
 		{
 			"id": 103,
-			"tier": "Luxo",
+			"tier": "Alto",
 			"destination": "Paris",
 			"city": "Paris",
 			"country": "FR",
@@ -112,30 +112,6 @@
 				"praia",
 				"família",
 				"premium"
-			]
-		},
-		{
-			"id": 106,
-			"tier": "Alto",
-			"destination": "Fernando de Noronha",
-			"city": "Fernando de Noronha",
-			"country": "BR",
-			"nights": 5,
-			"hotel_rating": 5,
-			"board": "Café da manhã",
-			"flight_class": "Economy",
-			"inclusions": [
-				"Passeio barco",
-				"Taxa ambiental NÃO inclusa"
-			],
-			"available_from": "2025-08-01",
-			"available_to": "2026-02-28",
-			"price_from": 12800,
-			"currency": "BRL",
-			"tags": [
-				"praia",
-				"premium",
-				"natureza"
 			]
 		},
 		{
@@ -187,31 +163,6 @@
 			]
 		},
 		{
-			"id": 203,
-			"tier": "Medio-Alto",
-			"destination": "Santiago",
-			"city": "Santiago",
-			"country": "CL",
-			"nights": 5,
-			"hotel_rating": 4,
-			"board": "Café da manhã",
-			"flight_class": "Economy",
-			"inclusions": [
-				"Vinícolas",
-				"Traslado"
-			],
-			"available_from": "2025-05-01",
-			"available_to": "2025-09-30",
-			"price_from": 6700,
-			"currency": "BRL",
-			"tags": [
-				"vinhos",
-				"inverno"
-			]
-		},
-		
-		},
-		{
 			"id": 205,
 			"tier": "Medio-Alto",
 			"destination": "Buenos Aires",
@@ -234,7 +185,6 @@
 				"gastronomia"
 			]
 		},
-		
 		{
 			"id": 302,
 			"tier": "Medio",
