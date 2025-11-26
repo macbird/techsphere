@@ -1,420 +1,168 @@
 {
-	"celulares": [
-		{
-			"id": "001",
-			"nome": "Smartphone Samsung Galaxy S23",
-			"descricao": "O Samsung Galaxy S23 oferece desempenho avançado, câmera de alta resolução e bateria de longa duração.",
-			"imagem": "https://http2.mlstatic.com/D_NQ_NP_969408-MLU75401927010_042024-O.webp"
-		},
-		{
-			"id": "002",
-			"nome": "iPhone 14 Pro Max",
-			"descricao": "O iPhone 14 Pro Max traz o melhor da Apple em performance, tela e câmeras, com design sofisticado.",
-			"imagem": "https://http2.mlstatic.com/D_NQ_NP_605126-MLM51559383638_092022-O.webp"
-		},
-		{
-			"id": "003",
-			"nome": "Google Pixel 7 Pro",
-			"descricao": "O Google Pixel 7 Pro destaca-se pela experiência Android pura e câmeras inteligentes.",
-			"imagem": "https://http2.mlstatic.com/D_NQ_NP_617232-MLB86276915425_062025-O.webp"
-		},
-		{
-			"id": "004",
-			"nome": "Xiaomi Redmi 12",
-			"descricao": "O Redmi 12 oferece ótimo custo-benefício, bateria duradoura e tela grande.",
-			"imagem": "https://http2.mlstatic.com/D_NQ_NP_911998-MLA84080936633_042025-O.webp"
-		},
-		{
-			"id": "005",
-			"nome": "Samsung Galaxy Z Fold 5",
-			"descricao": "O Galaxy Z Fold 5 é um smartphone dobrável com tela expansível e recursos inovadores.",
-			"imagem": "https://http2.mlstatic.com/D_NQ_NP_693774-MLU77435030132_072024-O.webp"
-		},
-		{
-			"id": "006",
-			"nome": "Motorola Edge 40 Pro",
-			"descricao": "O Edge 40 Pro traz desempenho de ponta, tela curva e carregamento ultrarrápido.",
-			"imagem": "https://http2.mlstatic.com/D_NQ_NP_737250-MLA51089699542_082022-O.webp"
-		}
-	],
-	"packages": [
-		{
-			"id": 101,
-			"tier": "Alto",
-			"destination": "Maldivas",
-			"city": "Malé",
-			"country": "MV",
-			"nights": 7,
-			"hotel_rating": 5,
-			"board": "All Inclusive",
-			"flight_class": "Business",
-			"inclusions": [
-				"Traslado privado",
-				"Spa",
-				"Jantar romântico",
-				"Passeio de barco"
-			],
-			"available_from": "2025-11-01",
-			"available_to": "2026-03-31",
-			"price_from": 42000,
-			"currency": "BRL",
-			"tags": [
-				"praia",
-				"luxo",
-				"romântico"
-			]
-		},
-		{
-			"id": 103,
-			"tier": "Alto",
-			"destination": "Paris",
-			"city": "Paris",
-			"country": "FR",
-			"nights": 5,
-			"hotel_rating": 5,
-			"board": "Café da manhã",
-			"flight_class": "Business",
-			"inclusions": [
-				"Jantar Michelin",
-				"Traslado privado",
-				"Seine cruise"
-			],
-			"available_from": "2025-04-01",
-			"available_to": "2025-10-31",
-			"price_from": 28500,
-			"currency": "BRL",
-			"tags": [
-				"cidade",
-				"gastronomia",
-				"premium"
-			]
-		},
-		{
-			"id": 104,
-			"tier": "Alto",
-			"destination": "Cancún",
-			"city": "Cancún",
-			"country": "MX",
-			"nights": 6,
-			"hotel_rating": 5,
-			"board": "All Inclusive",
-			"flight_class": "Economy Flex",
-			"inclusions": [
-				"Resort 5*",
-				"Traslado",
-				"Chichén Itzá"
-			],
-			"available_from": "2025-03-01",
-			"available_to": "2025-12-15",
-			"price_from": 14500,
-			"currency": "BRL",
-			"tags": [
-				"praia",
-				"família",
-				"premium"
-			]
-		},
-		{
-			"id": 201,
-			"tier": "Medio-Alto",
-			"destination": "Barcelona",
-			"city": "Barcelona",
-			"country": "ES",
-			"nights": 5,
-			"hotel_rating": 4,
-			"board": "Meia pensão",
-			"flight_class": "Economy Flex",
-			"inclusions": [
-				"Passeios guiados",
-				"Traslado",
-				"Seguro básico"
-			],
-			"available_from": "2025-04-10",
-			"available_to": "2025-10-10",
-			"price_from": 8200,
-			"currency": "BRL",
-			"tags": [
-				"cultura",
-				"gastronomia"
-			]
-		},
-		{
-			"id": 202,
-			"tier": "Medio-Alto",
-			"destination": "Gramado",
-			"city": "Gramado",
-			"country": "BR",
-			"nights": 4,
-			"hotel_rating": 4,
-			"board": "Café da manhã",
-			"flight_class": "Economy",
-			"inclusions": [
-				"City tour",
-				"Ingresso parque temático"
-			],
-			"available_from": "2025-06-01",
-			"available_to": "2025-08-31",
-			"price_from": 5200,
-			"currency": "BRL",
-			"tags": [
-				"inverno",
-				"família",
-				"romântico"
-			]
-		},
-		{
-			"id": 205,
-			"tier": "Medio-Alto",
-			"destination": "Buenos Aires",
-			"city": "Buenos Aires",
-			"country": "AR",
-			"nights": 4,
-			"hotel_rating": 4,
-			"board": "Café da manhã",
-			"flight_class": "Economy",
-			"inclusions": [
-				"Tango show",
-				"City tour"
-			],
-			"available_from": "2025-03-01",
-			"available_to": "2025-11-30",
-			"price_from": 4900,
-			"currency": "BRL",
-			"tags": [
-				"cultura",
-				"gastronomia"
-			]
-		},
-		{
-			"id": 302,
-			"tier": "Medio",
-			"destination": "Maceió",
-			"city": "Maceió",
-			"country": "BR",
-			"nights": 6,
-			"hotel_rating": 3,
-			"board": "Café da manhã",
-			"flight_class": "Economy",
-			"inclusions": [
-				"Passeio Maragogi",
-				"Traslado compartilhado"
-			],
-			"available_from": "2025-09-01",
-			"available_to": "2026-02-28",
-			"price_from": 3800,
-			"currency": "BRL",
-			"tags": [
-				"praia",
-				"família"
-			]
-		},
-		{
-			"id": 303,
-			"tier": "Medio",
-			"destination": "Foz do Iguaçu",
-			"city": "Foz do Iguaçu",
-			"country": "BR",
-			"nights": 4,
-			"hotel_rating": 3,
-			"board": "Café da manhã",
-			"flight_class": "Economy",
-			"inclusions": [
-				"Parque Nacional (lado BR)",
-				"Traslado compartilhado"
-			],
-			"available_from": "2025-02-01",
-			"available_to": "2025-12-20",
-			"price_from": 3100,
-			"currency": "BRL",
-			"tags": [
-				"natureza",
-				"econômico"
-			]
-		},
-		{
-			"id": 304,
-			"tier": "Medio",
-			"destination": "Santiago",
-			"city": "Santiago",
-			"country": "CL",
-			"nights": 4,
-			"hotel_rating": 3,
-			"board": "Café da manhã",
-			"flight_class": "Economy",
-			"inclusions": [
-				"City tour",
-				"Vinícola (opcional)"
-			],
-			"available_from": "2025-05-01",
-			"available_to": "2025-09-30",
-			"price_from": 4200,
-			"currency": "BRL",
-			"tags": [
-				"inverno",
-				"custo-benefício"
-			]
-		},
-		{
-			"id": 305,
-			"tier": "Medio",
-			"destination": "Recife",
-			"city": "Recife",
-			"country": "BR",
-			"nights": 5,
-			"hotel_rating": 3,
-			"board": "Café da manhã",
-			"flight_class": "Economy",
-			"inclusions": [
-				"Porto de Galinhas",
-				"Traslado compartilhado"
-			],
-			"available_from": "2025-08-01",
-			"available_to": "2026-01-31",
-			"price_from": 3500,
-			"currency": "BRL",
-			"tags": [
-				"praia",
-				"família"
-			]
-		},
-		{
-			"id": 401,
-			"tier": "Medio-Baixo",
-			"destination": "Porto",
-			"city": "Porto",
-			"country": "PT",
-			"nights": 5,
-			"hotel_rating": 3,
-			"board": "Café da manhã",
-			"flight_class": "Economy",
-			"inclusions": [
-				"Caves de vinho",
-				"Walking tour"
-			],
-			"available_from": "2025-03-15",
-			"available_to": "2025-11-15",
-			"price_from": 4100,
-			"currency": "BRL",
-			"tags": [
-				"cultura",
-				"econômico"
-			]
-		},
-		{
-			"id": 402,
-			"tier": "Medio-Baixo",
-			"destination": "Natal",
-			"city": "Natal",
-			"country": "BR",
-			"nights": 5,
-			"hotel_rating": 3,
-			"board": "Café da manhã",
-			"flight_class": "Economy",
-			"inclusions": [
-				"Genipabu (opcional)",
-				"Traslado compartilhado"
-			],
-			"available_from": "2025-09-01",
-			"available_to": "2026-02-28",
-			"price_from": 2900,
-			"currency": "BRL",
-			"tags": [
-				"praia",
-				"econômico"
-			]
-		},
-		{
-			"id": 403,
-			"tier": "Medio-Baixo",
-			"destination": "Curitiba",
-			"city": "Curitiba",
-			"country": "BR",
-			"nights": 3,
-			"hotel_rating": 3,
-			"board": "Café da manhã",
-			"flight_class": "Economy",
-			"inclusions": [
-				"Jardim Botânico",
-				"Tour histórico"
-			],
-			"available_from": "2025-03-01",
-			"available_to": "2025-12-20",
-			"price_from": 1800,
-			"currency": "BRL",
-			"tags": [
-				"cidade",
-				"econômico"
-			]
-		},
-		{
-			"id": 404,
-			"tier": "Medio-Baixo",
-			"destination": "Montevidéu",
-			"city": "Montevideo",
-			"country": "UY",
-			"nights": 4,
-			"hotel_rating": 3,
-			"board": "Café da manhã",
-			"flight_class": "Economy",
-			"inclusions": [
-				"City tour",
-				"Mercado del Puerto"
-			],
-			"available_from": "2025-04-01",
-			"available_to": "2025-10-31",
-			"price_from": 2700,
-			"currency": "BRL",
-			"tags": [
-				"cultura",
-				"econômico"
-			]
-		},
-		{
-			"id": 405,
-			"tier": "Medio-Baixo",
-			"destination": "Porto Seguro",
-			"city": "Porto Seguro",
-			"country": "BR",
-			"nights": 5,
-			"hotel_rating": 3,
-			"board": "Café da manhã",
-			"flight_class": "Economy",
-			"inclusions": [
-				"Arraial d'Ajuda (opcional)",
-				"Traslado compartilhado"
-			],
-			"available_from": "2025-08-01",
-			"available_to": "2026-01-31",
-			"price_from": 2300,
-			"currency": "BRL",
-			"tags": [
-				"praia",
-				"econômico"
-			]
-		}
-	],
-	"informar_canal_internacional": [
-		{
-			"id": 1,
-			"pais": "US",
-			"idioma": "en-US",
-			"canal": "International Support",
-			"contato": "support@bluehorizon.com",
-			"telefone": "+1-555-0123",
-			"horario": "24/7",
-			"website": "https://bluehorizon.com/en/support",
-			"mensagem": "We apologize, but we only serve customers in Brazil. Please contact our international support team for assistance."
-		},
-		{
-			"id": 3,
-			"pais": "FR",
-			"idioma": "fr-FR",
-			"canal": "Support International",
-			"contato": "support@bluehorizon.com",
-			"telefone": "+33-1-23-45-67-89",
-			"horario": "09:00-17:00 (GMT+1)",
-			"website": "https://bluehorizon.com/fr/support",
-			"mensagem": "Nous nous excusons, mais nous ne servons que les clients au Brésil. Veuillez contacter notre équipe de support international."
-		}
-	]
+  "customers": [
+    {
+      "id": "CUST-982711",
+      "name": "Marina Alves Duarte",
+      "cpf": "24135798011",
+      "email": "marina.duarte@example.com",
+      "phone": "+55 11 99888-2233",
+      "loyaltyTier": "Gold",
+      "defaultAddressId": "ADDR-5001"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "ADDR-5001",
+      "customerId": "CUST-982711",
+      "label": "Residencial",
+      "street": "Rua João Moura",
+      "number": "455",
+      "city": "São Paulo",
+      "state": "SP",
+      "zipCode": "05412-001"
+    }
+  ],
+  "products": [
+    {
+      "id": "001",
+      "name": "Smartphone Samsung Galaxy S23",
+      "description": "O Samsung Galaxy S23 oferece desempenho avançado, câmera de alta resolução e bateria de longa duração.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_969408-MLU75401927010_042024-O.webp",
+      "category": "Smartphones",
+      "price": 4699.90,
+      "stock": 12
+    },
+    {
+      "id": "002",
+      "name": "iPhone 14 Pro Max",
+      "description": "O iPhone 14 Pro Max traz o melhor da Apple em performance, tela e câmeras, com design sofisticado.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_605126-MLM51559383638_092022-O.webp",
+      "category": "Smartphones",
+      "price": 7899.00,
+      "stock": 6
+    },
+    {
+      "id": "003",
+      "name": "Google Pixel 7 Pro",
+      "description": "O Google Pixel 7 Pro destaca-se pela experiência Android pura e câmeras inteligentes.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_617232-MLB86276915425_062025-O.webp",
+      "category": "Smartphones",
+      "price": 5899.50,
+      "stock": 5
+    },
+    {
+      "id": "004",
+      "name": "Xiaomi Redmi 12",
+      "description": "O Redmi 12 oferece ótimo custo-benefício, bateria duradoura e tela grande.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_911998-MLA84080936633_042025-O.webp",
+      "category": "Smartphones",
+      "price": 1599.90,
+      "stock": 18
+    },
+    {
+      "id": "005",
+      "name": "Samsung Galaxy Z Fold 5",
+      "description": "O Galaxy Z Fold 5 é um smartphone dobrável com tela expansível e recursos inovadores.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_693774-MLU77435030132_072024-O.webp",
+      "category": "Smartphones",
+      "price": 11999.00,
+      "stock": 3
+    },
+    {
+      "id": "006",
+      "name": "Motorola Edge 40 Pro",
+      "description": "O Edge 40 Pro traz desempenho de ponta, tela curva e carregamento ultrarrápido.",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_737250-MLA51089699542_082022-O.webp",
+      "category": "Smartphones",
+      "price": 3999.90,
+      "stock": 10
+    }
+  ],
+  "creditCards": [
+    {
+      "id": "CARD-7741",
+      "customerId": "CUST-982711",
+      "brand": "Visa",
+      "holder": "Marina A Duarte",
+      "number": "4111111111111111",
+      "expirationMonth": "08",
+      "expirationYear": "2027",
+      "cvv": "314",
+      "billingAddressId": "ADDR-5001",
+      "document": "24135798011",
+      "nickname": "Cartão Principal",
+      "last4": "1111",
+      "token": "tok_visa_a1b2c3d4"
+    }
+  ],
+  "carts": [
+    {
+      "id": "CART-001",
+      "customerId": "CUST-982711",
+      "items": [
+        {
+          "productId": "004",
+          "productName": "Xiaomi Redmi 12",
+          "quantity": 1,
+          "unitPrice": 1599.90
+        }
+      ],
+      "updatedAt": "2024-11-30T15:52:00-03:00"
+    }
+  ],
+  "paymentOptions": [
+    {
+      "method": "credit_card",
+      "label": "Cartão de crédito",
+      "supportsInstallments": true,
+      "requiresCardToken": true
+    },
+    {
+      "method": "pix",
+      "label": "PIX",
+      "supportsInstallments": false,
+      "pixKey": "ecommerce@loja.com",
+      "expirationMinutes": 30
+    },
+    {
+      "method": "boleto",
+      "label": "Boleto bancário",
+      "supportsInstallments": false,
+      "bank": "Banco XPTO",
+      "dueDays": 3
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-2024-0007",
+      "customerId": "CUST-982711",
+      "status": "SHIPPED",
+      "createdAt": "2024-11-15T10:32:00-03:00",
+      "items": [
+        {
+          "productId": "001",
+          "productName": "Smartphone Samsung Galaxy S23",
+          "quantity": 1,
+          "unitPrice": 4699.90
+        }
+      ],
+      "shippingAddressId": "ADDR-5001",
+      "payment": {
+        "method": "credit_card",
+        "cardId": "CARD-7741",
+        "installments": 3,
+        "totalPaid": 4699.90
+      }
+    }
+  ],
+  "orderStatuses": [
+    {
+      "orderId": "ORD-2024-0007",
+      "history": [
+        { "status": "PROCESSING", "timestamp": "2024-11-15T10:35:00-03:00" },
+        { "status": "SHIPPED", "timestamp": "2024-11-16T08:10:00-03:00" }
+      ],
+      "currentLocation": "São Paulo/SP - Centro de Distribuição"
+    }
+  ]
 }
