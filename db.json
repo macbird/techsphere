@@ -23,12 +23,12 @@
     }
   ],
   "categories": [
-    { "id": "cat-smartphones", "name": "Smartphones" },
-    { "id": "cat-tablets", "name": "Tablets" },
-    { "id": "cat-notebooks", "name": "Notebooks" },
-    { "id": "cat-acessorios", "name": "Acessórios" },
-    { "id": "cat-wearables", "name": "Wearables" },
-    { "id": "cat-smart-home", "name": "Smart Home" }
+    { "name": "Smartphones" },
+    { "name": "Tablets" },
+    { "name": "Notebooks" },
+    { "name": "Acessórios" },
+    { "name": "Wearables" },
+    { "name": "Smart Home" }
   ],
   "products": [
     {
