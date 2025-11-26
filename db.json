@@ -22,11 +22,19 @@
       "zipCode": "05412-001"
     }
   ],
+  "categories": [
+    { "id": "cat-smartphones", "name": "Smartphones" },
+    { "id": "cat-tablets", "name": "Tablets" },
+    { "id": "cat-notebooks", "name": "Notebooks" },
+    { "id": "cat-acessorios", "name": "Acessórios" },
+    { "id": "cat-wearables", "name": "Wearables" },
+    { "id": "cat-smart-home", "name": "Smart Home" }
+  ],
   "products": [
     {
       "id": "001",
       "name": "Smartphone Samsung Galaxy S23",
-      "description": "O Samsung Galaxy S23 oferece desempenho avançado, câmera de alta resolução e bateria de longa duração.",
+      "description": "Desempenho avançado, câmera de alta resolução e bateria de longa duração.",
       "image": "https://http2.mlstatic.com/D_NQ_NP_969408-MLU75401927010_042024-O.webp",
       "category": "Smartphones",
       "price": 4699.90,
@@ -35,7 +43,7 @@
     {
       "id": "002",
       "name": "iPhone 14 Pro Max",
-      "description": "O iPhone 14 Pro Max traz o melhor da Apple em performance, tela e câmeras, com design sofisticado.",
+      "description": "Performance máxima da Apple com tela e câmeras de alto nível.",
       "image": "https://http2.mlstatic.com/D_NQ_NP_605126-MLM51559383638_092022-O.webp",
       "category": "Smartphones",
       "price": 7899.00,
@@ -44,7 +52,7 @@
     {
       "id": "003",
       "name": "Google Pixel 7 Pro",
-      "description": "O Google Pixel 7 Pro destaca-se pela experiência Android pura e câmeras inteligentes.",
+      "description": "Experiência Android pura e câmeras inteligentes.",
       "image": "https://http2.mlstatic.com/D_NQ_NP_617232-MLB86276915425_062025-O.webp",
       "category": "Smartphones",
       "price": 5899.50,
@@ -53,7 +61,7 @@
     {
       "id": "004",
       "name": "Xiaomi Redmi 12",
-      "description": "O Redmi 12 oferece ótimo custo-benefício, bateria duradoura e tela grande.",
+      "description": "Excelente custo-benefício com bateria duradoura e tela grande.",
       "image": "https://http2.mlstatic.com/D_NQ_NP_911998-MLA84080936633_042025-O.webp",
       "category": "Smartphones",
       "price": 1599.90,
@@ -62,7 +70,7 @@
     {
       "id": "005",
       "name": "Samsung Galaxy Z Fold 5",
-      "description": "O Galaxy Z Fold 5 é um smartphone dobrável com tela expansível e recursos inovadores.",
+      "description": "Smartphone dobrável com tela expansível e recursos inovadores.",
       "image": "https://http2.mlstatic.com/D_NQ_NP_693774-MLU77435030132_072024-O.webp",
       "category": "Smartphones",
       "price": 11999.00,
@@ -71,11 +79,146 @@
     {
       "id": "006",
       "name": "Motorola Edge 40 Pro",
-      "description": "O Edge 40 Pro traz desempenho de ponta, tela curva e carregamento ultrarrápido.",
+      "description": "Desempenho de ponta, tela curva e carregamento ultrarrápido.",
       "image": "https://http2.mlstatic.com/D_NQ_NP_737250-MLA51089699542_082022-O.webp",
       "category": "Smartphones",
       "price": 3999.90,
       "stock": 10
+    },
+    {
+      "id": "007",
+      "name": "Apple iPad Air 5ª geração",
+      "description": "Tablet leve com chip M1 para produtividade e entretenimento.",
+      "image": "https://cdn.exemplo.com/produtos/ipad-air-5.jpg",
+      "category": "Tablets",
+      "price": 4999.00,
+      "stock": 9
+    },
+    {
+      "id": "008",
+      "name": "Samsung Galaxy Tab S9",
+      "description": "Tablet Android premium com S Pen e tela AMOLED.",
+      "image": "https://cdn.exemplo.com/produtos/galaxy-tab-s9.jpg",
+      "category": "Tablets",
+      "price": 6199.00,
+      "stock": 4
+    },
+    {
+      "id": "009",
+      "name": "Lenovo Tab P11 Plus",
+      "description": "Tablet intermediário com boa autonomia e áudio Dolby Atmos.",
+      "image": "https://cdn.exemplo.com/produtos/tab-p11-plus.jpg",
+      "category": "Tablets",
+      "price": 1899.90,
+      "stock": 15
+    },
+    {
+      "id": "010",
+      "name": "Notebook Dell XPS 13",
+      "description": "Ultrabook premium com tela InfinityEdge e acabamento metálico.",
+      "image": "https://cdn.exemplo.com/produtos/dell-xps-13.jpg",
+      "category": "Notebooks",
+      "price": 8999.00,
+      "stock": 5
+    },
+    {
+      "id": "011",
+      "name": "Notebook Acer Nitro 5",
+      "description": "Notebook gamer com GPU dedicada e refrigeração otimizada.",
+      "image": "https://cdn.exemplo.com/produtos/acer-nitro-5.jpg",
+      "category": "Notebooks",
+      "price": 6699.00,
+      "stock": 8
+    },
+    {
+      "id": "012",
+      "name": "MacBook Air M2",
+      "description": "Notebook ultrafino com chip M2 e bateria de longa duração.",
+      "image": "https://cdn.exemplo.com/produtos/macbook-air-m2.jpg",
+      "category": "Notebooks",
+      "price": 10499.00,
+      "stock": 6
+    },
+    {
+      "id": "013",
+      "name": "Headset Sony WH-1000XM5",
+      "description": "Fone bluetooth com cancelamento de ruído líder do mercado.",
+      "image": "https://cdn.exemplo.com/produtos/sony-wh1000xm5.jpg",
+      "category": "Acessórios",
+      "price": 2299.90,
+      "stock": 14
+    },
+    {
+      "id": "014",
+      "name": "Caixa de Som JBL Charge 5",
+      "description": "Caixa portátil com bateria robusta e som potente.",
+      "image": "https://cdn.exemplo.com/produtos/jbl-charge-5.jpg",
+      "category": "Acessórios",
+      "price": 1299.90,
+      "stock": 20
+    },
+    {
+      "id": "015",
+      "name": "Teclado Mecânico Logitech G Pro X",
+      "description": "Teclado customizável para gamers e criadores de conteúdo.",
+      "image": "https://cdn.exemplo.com/produtos/logitech-g-pro-x.jpg",
+      "category": "Acessórios",
+      "price": 899.90,
+      "stock": 11
+    },
+    {
+      "id": "016",
+      "name": "Smartwatch Samsung Galaxy Watch 6",
+      "description": "Monitoramento avançado de saúde e treino com design elegante.",
+      "image": "https://cdn.exemplo.com/produtos/galaxy-watch-6.jpg",
+      "category": "Wearables",
+      "price": 1899.00,
+      "stock": 11
+    },
+    {
+      "id": "017",
+      "name": "Apple Watch Series 9",
+      "description": "Recursos completos para atividades físicas e integração com iPhone.",
+      "image": "https://cdn.exemplo.com/produtos/apple-watch-s9.jpg",
+      "category": "Wearables",
+      "price": 3999.00,
+      "stock": 7
+    },
+    {
+      "id": "018",
+      "name": "Pulseira Xiaomi Smart Band 8",
+      "description": "Pulseira leve com múltiplos modos esportivos e bateria longa.",
+      "image": "https://cdn.exemplo.com/produtos/xiaomi-band-8.jpg",
+      "category": "Wearables",
+      "price": 299.90,
+      "stock": 30
+    },
+    {
+      "id": "019",
+      "name": "Kit Smart Home Google Nest",
+      "description": "Pacote com Nest Hub e sensores para automação residencial.",
+      "image": "https://cdn.exemplo.com/produtos/google-nest-kit.jpg",
+      "category": "Smart Home",
+      "price": 2499.00,
+      "stock": 7
+    },
+    {
+      "id": "020",
+      "name": "Assistente Amazon Echo Pop",
+      "description": "Assistente virtual com Alexa para controle por voz.",
+      "image": "https://cdn.exemplo.com/produtos/echo-pop.jpg",
+      "category": "Smart Home",
+      "price": 449.90,
+      "stock": 25
+    },
+    {
+      "id": "021",
+      "name": "Roteador Wi-Fi 6 TP-Link Archer AX73",
+      "description": "Cobertura ampla com suporte a múltiplos dispositivos.",
+      "image": "https://cdn.exemplo.com/produtos/archer-ax73.jpg",
+      "category": "Smart Home",
+      "price": 899.00,
+      "stock": 13
     }
   ],
   "creditCards": [
@@ -159,8 +302,8 @@
     {
       "orderId": "ORD-2024-0007",
       "history": [
-        { "status": "PROCESSING", "timestamp": "2024-11-15T10:35:00-03:00" },
-        { "status": "SHIPPED", "timestamp": "2024-11-16T08:10:00-03:00" }
+          { "status": "PROCESSING", "timestamp": "2024-11-15T10:35:00-03:00" },
+          { "status": "SHIPPED", "timestamp": "2024-11-16T08:10:00-03:00" }
       ],
       "currentLocation": "São Paulo/SP - Centro de Distribuição"
     }
